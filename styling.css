@@ -1,28 +1,41 @@
 
     body {
-      background-image: url('back.jpg');
+        background-image: url('stars.jpg');
+      background-position: center center;
+
     }
     .to-be-retrieved{
       display: none;
       width: 100%;
- height: auto;
+      height: auto;
     }
     .spinner{
       display: block;
     }
     #mina-face:hover{
+
       transition: transform .7s;
       transform: scale(1.2);
       border: 3px solid #03d3fc;
+    }
+    #contact-sign:hover{
+
+      transition: transform .7s;
+      transform: scale(1.2);
+    }
+    #location-sign:hover{
+
+      transition: transform .7s;
+      transform: scale(1.2);
     }
     #mina-face{
-  border: 3px solid #03d3fc;
+      margin-left: auto;
+    margin-right: auto;
+        padding:0px ;
 
     }
-    #mirna-face:hover{
-      transition: transform .7s;
-      transform: scale(1.2);
-      border: 3px solid #03d3fc;
+    #mina-img{
+      justify-content: center;
     }
     .slide{
       position: relative;
@@ -35,29 +48,20 @@
       100%  {left:-770px; top:0px;}
     }
     #jumbo1{
-      padding: 5px;
-      /* background: rgba(50, 153, 168, 0.1); */
-      background-image: url("floral2.jpg");
+      /* background-image: url("floral2.jpg"); */
+      margin-top: 100px;
+      justify-content: center;
+      background: rgba(50, 153, 168, 0.3);
       background-position: center center;
       background-size: 100% 100%;
-      width: 100%;
-      height: auto;
+      width: auto;
+      height: 100px;
+      justify-content: center;
 
     }
-    #jumbo2{
-      padding: 5px;
-      background: rgba(50, 153, 168, 0.1);
-      height: 400px;
-      width: 100%;
-      height: auto;
+    #container1{
+     justify-content: center;
 
-    }
-    #touchMina{
-
-    vertical-align: middle;
-    horizontal-align: middle;
-    width: 100%;
-    height: auto;
 
 
     }

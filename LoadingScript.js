@@ -7,9 +7,16 @@ function AsIs()
 
 
 
-},1000)
+},700)
 };
 
 function slide(){
     document.getElementById('mina-slide').className ='slide';
   };
+
+  function page1(){
+  window.location.href = "page1.html";
+};
+function homePage(){
+window.location.href = "index.html";
+};
