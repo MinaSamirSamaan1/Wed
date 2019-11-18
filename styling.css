@@ -1,6 +1,6 @@
 
     body {
-        background-image: url('stars.jpg');
+        background-image: url('./images/stars.jpg');
       background-position: center center;
 
     }
@@ -12,6 +12,12 @@
     .spinner{
       display: block;
     }
+    .nav-item:hover{
+      transition: transform .3s;
+      transform: scale(1.6);
+
+    }
+
     #mina-face:hover{
 
       transition: transform .7s;
@@ -30,8 +36,8 @@
     }
     #mina-face{
       margin-left: auto;
-    margin-right: auto;
-        padding:0px ;
+      margin-right: auto;
+      padding:0px ;
 
     }
     #mina-img{
@@ -55,24 +61,58 @@
       background-position: center center;
       background-size: 100% 100%;
       width: auto;
-      height: 100px;
+      height: 160px;
       justify-content: center;
+
+    }
+    #jumbo2{
+      margin-top: 100px;
+      justify-content: center;
+      background: rgba(50, 153, 168, 0.5);
+      background-position: center center;
+      background-size: 100% 100%;
+      width: auto;
+      height: 145px;
 
     }
     #container1{
      justify-content: center;
-
-
-
+    }
+    #container2{
+     justify-content: center;
+     width: 80%;
     }
     #footer{
-    color: rgba(50, 153, 168, 1);
-    position: absolute;
+    color: #FFF;
+    /* position: absolute; */
     bottom: 0;
+    margin-right: 0;
     width: 100%;
-    height: 2.5rem;
+    height: 0rem;
+
     }
+
     .copyrights{
 
+      float: right;
+    }
+
+    #brideAndGroom{
+      width: 100%;
+
+      animation-duration: 5s;
+      animation-delay: 1s;
+      animation-iteration-count: infinite;
+    }
+    #animatedCenter{
+      animation-duration: 5s;
+      animation-delay: 1s;
+      animation-iteration-count: infinite;
+    }
+
+    #bride{
+      float: left;
+    }
+    #groom{
       float: right;
     }
