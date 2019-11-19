@@ -1,3 +1,7 @@
+#flip{
+  background-color: rgba(50, 153, 168, 0.1);
+
+}
 .flip-card {
   background-color: transparent;
   width: auto;
@@ -9,7 +13,7 @@
   background-color: transparent;
   position: relative;
   width: 100%;
-  height: 200px;
+  height: 300px;
   text-align: center;
   transition: transform 2s;
   transform-style: preserve-3d;
