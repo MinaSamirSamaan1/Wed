@@ -49,4 +49,5 @@
   background-color: rgba(50, 153, 168, 0.1);
   color: white;
   transform: rotateY(180deg);
+  backface-visibility: hidden;
 }
