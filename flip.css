@@ -1,5 +1,4 @@
 #flip{
-  background-color: rgba(50, 153, 168, 0.1);
 
 }
 .flip-card {
@@ -7,6 +6,8 @@
   width: auto;
   height: 300px;
   perspective: 1000px;
+  /* justify-content: center; */
+
 }
 
 .flip-card-inner {
@@ -45,7 +46,7 @@
 }
 
 .flip-card-back {
-  background-color: transparent;
+  background-color: rgba(50, 153, 168, 0.1);
   color: white;
   transform: rotateY(180deg);
 }
