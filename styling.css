@@ -83,15 +83,27 @@
      width: 80%;
     }
     #footer{
-    color: #FFF;
-    /* position: absolute; */
-    bottom: 0;
-    margin-right: 0;
-    width: 100%;
-    height: 0rem;
+
+          clear: both;
+          background: rgba(50, 153, 168, 0);
+          color: #03d3fc;
+          padding: 0;
+          text-align: center;
+          vertical-align: middle;
+          line-height: normal;
+          margin: 0;
+          position: fixed;
+          bottom: 0px;
+          height: 20px;
+          width: 100%;
 
     }
+    .copyrights:hover{
+      transition: transform .7s;
+      transform: scale(1.2);
 
+
+    }
     .copyrights{
 
       float: right;
@@ -115,4 +127,7 @@
     }
     #groom{
       float: right;
+    }
+    #empty-div{
+      height: 100px;
     }
