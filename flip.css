@@ -36,8 +36,10 @@
  backface-visibility: hidden;
  font-family: 'Sofia';font-size: 16px;
 
+ backface-visibility: hidden;
 
 }
+
 
 .flip-card-front {
   background-color: transparent;
