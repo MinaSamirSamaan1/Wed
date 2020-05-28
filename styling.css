@@ -12,7 +12,8 @@
     .spinner{
       display: block;
     }
-    .nav-item:hover{
+    .nav-ite
+    m:hover{
       transition: transform .3s;
       transform: scale(1.6);
 
@@ -61,7 +62,7 @@
       background-position: center center;
       background-size: 100% 100%;
       width: auto;
-      height: 160px;
+      height: 180px;
       justify-content: center;
 
     }
@@ -69,6 +70,16 @@
       margin-top: 100px;
       justify-content: center;
       background: rgba(50, 153, 168, 0.5);
+      background-position: center center;
+      background-size: 100% 100%;
+      width: auto;
+      height: 145px;
+
+    }
+    #jumbo3{
+      margin-top: 100px;
+      justify-content: center;
+      background: rgba(50, 153, 168, 0.3);
       background-position: center center;
       background-size: 100% 100%;
       width: auto;
@@ -127,4 +138,13 @@
     }
     #groom{
       float: right;
+    }
+    #locationMap{
+      text-align: center;
+ font-family: 'Sofia';font-size: 26px;
+ color:#42f5d7;
+    }
+    #Map:hover{
+      transition: transform .3s;
+      transform: scale(1.6);
     }
