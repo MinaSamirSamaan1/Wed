@@ -12,8 +12,7 @@
     .spinner{
       display: block;
     }
-    .nav-ite
-    m:hover{
+    .nav-item:hover{
       transition: transform .3s;
       transform: scale(1.6);
 
@@ -58,22 +57,25 @@
       /* background-image: url("floral2.jpg"); */
       margin-top: 100px;
       justify-content: center;
-      background: rgba(50, 153, 168, 0.3);
+      background: rgba(50, 153, 168, 0.2);
       background-position: center center;
       background-size: 100% 100%;
-      width: auto;
+      width: 90%;
       height: 180px;
       justify-content: center;
+      margin-left: 5%;
+
 
     }
     #jumbo2{
-      margin-top: 100px;
+      margin-top: 50px;
       justify-content: center;
-      background: rgba(50, 153, 168, 0.5);
+      background: rgba(50, 153, 168, 0.4);
       background-position: center center;
       background-size: 100% 100%;
-      width: auto;
-      height: 145px;
+      width: 90%;
+      height: 155px;
+      margin-left: 5%;
 
     }
     #jumbo3{
@@ -83,8 +85,9 @@
       background: rgba(50, 153, 168, 0.3);
       background-position: center center;
       background-size: 100% 100%;
-      width: auto;
+      width: 90%;
       height: 145px;
+      margin-left: 5%;
 
     }
     #container1{
@@ -93,17 +96,14 @@
     #container2{
      justify-content: center;
      width: 80%;
+
     }
     #footer{
-
+          font-size: 22px;
           clear: both;
           background: rgba(50, 153, 168, 0);
           color: #03d3fc;
-          padding: 0;
-          text-align: center;
-          vertical-align: middle;
-          line-height: normal;
-          margin: 0;
+          line-height: 5%;
           position: fixed;
           bottom: 0px;
           height: 20px;
@@ -112,7 +112,7 @@
     }
     .copyrights:hover{
       transition: transform .7s;
-      transform: scale(1.2);
+      transform: scale(1.1);
 
 
     }
@@ -122,10 +122,12 @@
     }
 
     #brideAndGroom{
-      width: 100%;
-
+      width: 50%;
+      margin-top: 5%;
+      margin-left: 25%;
+      margin-bottom: 5%;
       animation-duration: 5s;
-      animation-delay: 1s;
+      animation-delay: 0.2s;
       animation-iteration-count: infinite;
     }
     #animatedCenter{
@@ -147,5 +149,9 @@
     }
     #Map:hover{
       transition: transform .3s;
-      transform: scale(1.6);
+      transform: scale(1.1);
+
+    }
+    #navigation{
+font-size: 28px;
     }
