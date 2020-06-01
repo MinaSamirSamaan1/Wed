@@ -122,11 +122,13 @@
     }
 
     #brideAndGroom{
-      width: 50%;
-      margin-top: 5%;
-      margin-left: 25%;
-      margin-bottom: 5%;
-      animation-duration: 5s;
+      justify-content: center;
+
+      width: 80%;
+      margin-left:10%;
+      margin-top: 20px;
+      margin-bottom: 130px;
+      animation-duration: 8s;
       animation-delay: 0.2s;
       animation-iteration-count: infinite;
     }
