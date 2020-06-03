@@ -4,6 +4,13 @@
       background-position: center center;
 
     }
+    #countdown {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+  font-family: 'Sofia';font-size: 25px;
+  color:#d13d5f;
+}
     .to-be-retrieved{
       display: none;
       width: 100%;
