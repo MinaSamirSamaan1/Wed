@@ -35,7 +35,7 @@
  position: absolute;
  display: block;
  border-style: solid;
- border-color: #2a82a3 transparent transparent transparent;
+ border-color: rgba(50, 153, 168, 0.7) transparent transparent transparent;
  bottom: -1em;
 }
 .ribbon .ribbon-content:before {
